@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="PathFinder - Your Academic and Career Guide"
+    >
+
+    <title>PathFinder - Your Academic & Career Guide</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div class="navbar-container">
+
+
+            <!-- Logo -->
+
+            <a href="#home" class="logo">
+                🎯 PathFinder
+            </a>
+
+
+            <!-- Desktop Navigation -->
+
+            <nav class="desktop-nav">
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#eligibility">
+                    Eligibility
+                </a>
+
+                <a href="#roadmaps">
+                    Roadmaps
+                </a>
+
+                <a href="#careers">
+                    Careers
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+            </nav>
+
+
+            <!-- Day / Night Theme Toggle -->
+            <button class="theme-toggle" id="themeToggle" type="button"
+                    aria-label="Switch to dark theme" title="Toggle day and night theme">🌙</button>
+
+            <!-- Profile Button -->
+
+            <button
+                class="profile-button"
+                id="profileButton"
+                type="button"
+                aria-label="Open profile"
+            >
+                👤
+            </button>
+
+
+            <!-- Mobile Menu -->
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+        </div>
+
+
+        <!-- Mobile Navigation -->
+
+        <nav
+            class="mobile-nav"
+            id="mobileNav"
+        >
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#eligibility">
+                Eligibility
+            </a>
+
+            <a href="#roadmaps">
+                Roadmaps
+            </a>
+
+            <a href="#careers">
+                Careers
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <button
+                type="button"
+                id="mobileProfileButton"
+            >
+                👤 My Profile
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+<!-- PathFinder Home Page Slider -->
+<section class="pf-slider" id="homeSlider">
+
+    <div class="pf-slides">
+
+        <!-- Slide 1 -->
+        <article class="pf-slide active">
+            <div class="pf-slide-content">
+                <span class="pf-slide-tag">🎯 YOUR FUTURE STARTS HERE</span>
+                <h1>Discover Your <span>Career Path</span></h1>
+                <p>Explore courses, discover your strengths, and find career options that match your interests.</p>
+                <a href="#eligibility" class="pf-slide-btn">Explore Your Options →</a>
+            </div>
+
+            <div class="pf-slide-art" aria-hidden="true">
+                <span class="pf-emoji pf-emoji-one">💻</span>
+                <span class="pf-emoji pf-emoji-two">🎯</span>
+                <span class="pf-emoji pf-emoji-three">🧑‍💻</span>
+                <div class="pf-art-caption">Plan · Learn · Grow</div>
+            </div>
+        </article>
+
+        <!-- Slide 2 -->
+        <article class="pf-slide">
+            <div class="pf-slide-content">
+                <span class="pf-slide-tag">💼 EXPLORE CAREER OPPORTUNITIES</span>
+                <h1>Turn Your Skills Into <span>A Career</span></h1>
+                <p>Discover job roles, essential skills, and practical steps to prepare for your professional future.</p>
+                <a href="#careers" class="pf-slide-btn">Explore Careers →</a>
+            </div>
+
+            <div class="pf-slide-art" aria-hidden="true">
+                <span class="pf-emoji pf-emoji-one">💼</span>
+                <span class="pf-emoji pf-emoji-two">📈</span>
+                <span class="pf-emoji pf-emoji-three">🤝</span>
+                <div class="pf-art-caption">Skills · Experience · Growth</div>
+            </div>
+        </article>
+
+        <!-- Slide 3 -->
+        <article class="pf-slide">
+            <div class="pf-slide-content">
+                <span class="pf-slide-tag">🚀 BUILD YOUR ROADMAP</span>
+                <h1>Learn Today. <span>Lead Tomorrow.</span></h1>
+                <p>Follow structured roadmaps to understand what to learn, which skills to build, and how to move forward.</p>
+                <a href="#roadmaps" class="pf-slide-btn">Explore Roadmaps →</a>
+            </div>
+
+            <div class="pf-slide-art" aria-hidden="true">
+                <span class="pf-emoji pf-emoji-one">🚀</span>
+                <span class="pf-emoji pf-emoji-two">📊</span>
+                <span class="pf-emoji pf-emoji-three">🏆</span>
+                <div class="pf-art-caption">Learn · Practice · Achieve</div>
+            </div>
+        </article>
+
+    </div>
+
+    <!-- Previous / Next buttons -->
+    <button class="pf-slider-arrow pf-slider-prev"
+            type="button" aria-label="Previous slide">‹</button>
+
+    <button class="pf-slider-arrow pf-slider-next"
+            type="button" aria-label="Next slide">›</button>
+
+    <!-- Slide indicators -->
+    <div class="pf-slider-dots" aria-label="Choose a slide">
+        <button type="button" class="pf-dot active"
+                aria-label="Go to slide 1"></button>
+        <button type="button" class="pf-dot"
+                aria-label="Go to slide 2"></button>
+        <button type="button" class="pf-dot"
+                aria-label="Go to slide 3"></button>
+    </div>
+
+</section>
+
+        
+
+        <!-- =================================================
+             ELIGIBILITY
+        ================================================== -->
+
+        <section
+            class="section"
+            id="eligibility"
+        >
+
+            <div class="section-container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        EXPLORE
+                    </span>
+
+
+                    <h2>
+                        Find Your Academic Direction
+                    </h2>
+
+
+                    <p>
+
+                        Whether you are in school or college,
+                        PathFinder helps you understand the options
+                        available for your next step.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="eligibility-grid">
+
+
+                    <article class="eligibility-card">
+
+                        <div class="card-icon">
+                            🎓
+                        </div>
+
+
+                        <h3>
+                            School Students
+                        </h3>
+
+
+                        <p>
+
+                            Explore streams, subjects, courses,
+                            career options, and the skills you can
+                            start building early.
+
+                        </p>
+
+
+                        <span class="card-link">
+                            Explore School Paths →
+                        </span>
+
+                    </article>
+
+
+
+                    <article class="eligibility-card">
+
+                        <div class="card-icon">
+                            💻
+                        </div>
+
+
+                        <h3>
+                            College Students
+                        </h3>
+
+
+                        <p>
+
+                            Understand your course, focus areas,
+                            career opportunities, technologies,
+                            projects, and required skills.
+
+                        </p>
+
+
+                        <span class="card-link">
+                            Explore College Paths →
+                        </span>
+
+                    </article>
+
+                </div>
+
+<!-- PATHFINDER COURSE EXPLORER -->
+
+<div
+    id="pathExplorer"
+    class="path-explorer"
+    aria-live="polite"
+    hidden
+>
+    <div class="section-heading">
+        <span class="section-label">YOUR LEARNING PATH</span>
+
+        <h2 id="pathExplorerTitle">
+            Explore Courses for Your Stream
+        </h2>
+
+        <p id="pathExplorerDescription">
+            Select a course to explore its subjects, skills,
+            career opportunities, and future paths.
+        </p>
+    </div>
+
+    <div
+        id="courseExplorerGrid"
+        class="course-explorer-grid"
+    >
+        <!-- Course cards will be rendered here by JavaScript. -->
+    </div>
+
+    <div
+        id="courseDetails"
+        class="course-details"
+        hidden
+    >
+        <button
+            type="button"
+            id="backToCourses"
+            class="secondary-button"
+        >
+            ← Back to Courses
+        </button>
+
+        <div id="selectedCourseContent">
+            <!-- Selected course details will appear here. -->
+        </div>
+    </div>
+</div>
+
+<!-- END PATHFINDER COURSE EXPLORER -->
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ROADMAPS
+        ================================================== -->
+
+        <section
+            class="section section-alt"
+            id="roadmaps"
+        >
+
+            <div class="section-container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        ROADMAPS
+                    </span>
+
+
+                    <h2>
+                        Learn What It Takes
+                    </h2>
+
+
+                    <p>
+
+                        Understand the journey from learning
+                        fundamentals to building real-world skills.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="roadmap-grid">
+
+
+                    <article class="roadmap-card">
+
+                        <div class="roadmap-icon">
+                            💻
+                        </div>
+
+
+                        <h3>
+                            Software Developer
+                        </h3>
+
+
+                        <p>
+
+                            Programming → Data Structures →
+                            Projects → Development Skills
+
+                        </p>
+
+
+                        <span>
+                            View Roadmap →
+                        </span>
+
+                    </article>
+
+
+
+                    <article class="roadmap-card">
+
+                        <div class="roadmap-icon">
+                            📊
+                        </div>
+
+
+                        <h3>
+                            Data Analyst
+                        </h3>
+
+
+                        <p>
+
+                            Excel → SQL → Statistics →
+                            Data Visualization
+
+                        </p>
+
+
+                        <span>
+                            View Roadmap →
+                        </span>
+
+                    </article>
+
+
+
+                    <article class="roadmap-card">
+
+                        <div class="roadmap-icon">
+                            🎨
+                        </div>
+
+
+                        <h3>
+                            UI/UX Designer
+                        </h3>
+
+
+                        <p>
+
+                            Design Principles → Figma →
+                            User Research → Projects
+
+                        </p>
+
+
+                        <span>
+                            View Roadmap →
+                        </span>
+
+                    </article>
+
+
+
+                    <article class="roadmap-card">
+
+                        <div class="roadmap-icon">
+                            📢
+                        </div>
+
+
+                        <h3>
+                            Digital Marketing
+                        </h3>
+
+
+                        <p>
+
+                            Marketing Fundamentals →
+                            Content → Analytics → Campaigns
+
+                        </p>
+
+
+                        <span>
+                            View Roadmap →
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CAREERS
+        ================================================== -->
+
+        <section
+            class="section"
+            id="careers"
+        >
+
+            <div class="section-container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        CAREERS
+                    </span>
+
+
+                    <h2>
+                        Explore Career Opportunities
+                    </h2>
+
+
+                    <p>
+
+                        Discover what different career paths involve
+                        and what you can learn to move toward them.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="career-grid">
+
+
+                    <article class="career-card">
+
+                        <div class="career-icon">
+                            👨‍💻
+                        </div>
+
+
+                        <h3>
+                            Software Engineer
+                        </h3>
+
+
+                        <p>
+
+                            Build software applications,
+                            systems, and digital products.
+
+                        </p>
+
+
+                        <span>
+                            Explore Career →
+                        </span>
+
+                    </article>
+
+
+
+                    <article class="career-card">
+
+                        <div class="career-icon">
+                            📈
+                        </div>
+
+
+                        <h3>
+                            Data Analyst
+                        </h3>
+
+
+                        <p>
+
+                            Work with data to discover insights
+                            and support better decisions.
+
+                        </p>
+
+
+                        <span>
+                            Explore Career →
+                        </span>
+
+                    </article>
+
+
+
+                    <article class="career-card">
+
+                        <div class="career-icon">
+                            🎨
+                        </div>
+
+
+                        <h3>
+                            UI/UX Designer
+                        </h3>
+
+
+                        <p>
+
+                            Design useful, accessible,
+                            and engaging digital experiences.
+
+                        </p>
+
+
+                        <span>
+                            Explore Career →
+                        </span>
+
+                    </article>
+
+
+
+                    <article class="career-card">
+
+                        <div class="career-icon">
+                            📱
+                        </div>
+
+
+                        <h3>
+                            Digital Marketer
+                        </h3>
+
+
+                        <p>
+
+                            Help organizations reach audiences
+                            through digital channels and content.
+
+                        </p>
+
+
+                        <span>
+                            Explore Career →
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+<!-- =====================================================
+     PERSONALIZED CAREER DASHBOARD
+===================================================== -->
+
+<section id="careerDashboard" class="career-dashboard-section">
+
+    <div class="section-heading">
+
+        <span class="section-label">
+            Your Path
+        </span>
+
+        <h2>
+            Personalized Career Dashboard
+        </h2>
+
+        <p>
+            Explore academic areas, career opportunities,
+            skills, technologies, projects, and roadmaps
+            based on your current academic profile.
+        </p>
+
+    </div>
+
+
+    <!-- =================================================
+         PROFILE SUMMARY
+    ================================================== -->
+
+    <div class="profile-summary-card">
+
+        <div class="profile-summary-icon">
+            🎓
+        </div>
+
+        <div class="profile-summary-content">
+
+            <span class="profile-summary-label">
+                Your Academic Profile
+            </span>
+
+            <h3 id="dashboardStudentName">
+                Student
+            </h3>
+
+            <p id="dashboardAcademicInfo">
+                Complete your profile to explore
+                personalized career opportunities.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         ACADEMIC OVERVIEW
+    ================================================== -->
+
+    <div class="dashboard-grid">
+
+
+        <!-- Subjects -->
+
+        <div class="dashboard-card">
+
+            <div class="dashboard-card-icon">
+                📚
+            </div>
+
+            <h3>
+                Key Subjects
+            </h3>
+
+            <p>
+                Important academic areas related to
+                your current course or stream.
+            </p>
+
+            <div
+                id="dashboardSubjects"
+                class="dashboard-list"
+            >
+
+                <span>
+                    Complete your profile to see subjects.
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- Role Responsibilities -->
+        <div class="career-detail-section">
+            <div class="career-detail-section-heading">
+                <span>🧭</span>
+                <div>
+                    <h3>Typical Responsibilities</h3>
+                    <p>Common tasks can differ by employer and seniority.</p>
+                </div>
+            </div>
+            <div id="careerResponsibilities" class="career-tag-list"></div>
+        </div>
+
+        <!-- Hiring Preparation -->
+        <div class="career-detail-section">
+            <div class="career-detail-section-heading">
+                <span>📝</span>
+                <div>
+                    <h3>How to Prepare & Hiring Requirements</h3>
+                    <p>General preparation guidance; verify each vacancy's actual criteria.</p>
+                </div>
+            </div>
+            <div id="careerHiringRequirements" class="career-tag-list"></div>
+        </div>
+
+        <!-- Focus Areas -->
+
+        <div class="dashboard-card">
+
+            <div class="dashboard-card-icon">
+                🎯
+            </div>
+
+            <h3>
+                Focus Areas
+            </h3>
+
+            <p>
+                Areas you can strengthen while studying.
+            </p>
+
+            <div
+                id="dashboardFocusAreas"
+                class="dashboard-list"
+            >
+
+                <span>
+                    Your focus areas will appear here.
+                </span>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- =================================================
+         CAREER OPPORTUNITIES
+    ================================================== -->
+
+    <div class="dashboard-careers">
+
+        <div class="dashboard-subheading">
+
+            <span class="section-label">
+                Explore
+            </span>
+
+            <h2>
+                Recommended Careers For You
+            </h2>
+
+            <p>
+                Your academic background can lead to
+                different career paths. Explore them
+                before deciding what interests you.
+            </p>
+
+        </div>
+
+
+        <div
+            id="careerOpportunityGrid"
+            class="career-opportunity-grid"
+        >
+
+            <!-- Career cards will be generated by JavaScript -->
+
+            <div class="empty-career-state">
+
+                <div class="empty-career-icon">
+                    🧭
+                </div>
+
+                <h3>
+                    Your career paths will appear here
+                </h3>
+
+                <p>
+                    Complete your academic profile to
+                    explore relevant career opportunities.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+
+        <!-- =================================================
+             ABOUT
+        ================================================== -->
+
+        <section class="section section-alt" id="about">
+            <div class="section-container">
+                <div class="about-intro">
+                    <span class="section-label">ABOUT PATHFINDER</span>
+                    <h2>A clearer way to explore your future.</h2>
+                    <p>Your future does not need to be decided in one day. Explore options, understand the skills behind them, and take your next step with confidence.</p>
+                </div>
+                <div class="thought-cloud" aria-label="Motivational thoughts for students">
+                    <article class="thought-bubble"><span class="thought-mark">✦</span><p>“Your direction matters more than your speed.”</p><small>Keep moving, one step at a time.</small></article>
+                    <article class="thought-bubble"><span class="thought-mark">☀</span><p>“You do not have to know everything. Start by learning one thing.”</p><small>Curiosity is a powerful beginning.</small></article>
+                    <article class="thought-bubble"><span class="thought-mark">✧</span><p>“Small progress every day becomes meaningful growth.”</p><small>Consistency builds confidence.</small></article>
+                    <article class="thought-bubble"><span class="thought-mark">↗</span><p>“Your path can be different and still be right for you.”</p><small>Compare options, not your worth.</small></article>
+                    <article class="thought-bubble"><span class="thought-mark">♡</span><p>“Skills grow when you give yourself permission to begin.”</p><small>Practice beats waiting for perfect.</small></article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         PROFILE MODAL
+    ====================================================== -->
+
+    <div
+        class="modal-overlay"
+        id="profileModal"
+        aria-hidden="true"
+    >
+
+        <div
+            class="profile-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="profileModalTitle"
+        >
+
+
+            <!-- Modal Header -->
+
+            <div class="modal-header">
+
+                <div>
+
+                    <span class="modal-label">
+                        YOUR PROFILE
+                    </span>
+
+
+                    <h2 id="profileModalTitle">
+                        Tell Us About Yourself
+                    </h2>
+
+
+                    <p>
+
+                        We only need your academic information
+                        to understand which paths are relevant
+                        to you.
+
+                    </p>
+
+                </div>
+
+
+                <button
+                    class="modal-close"
+                    id="closeProfileModal"
+                    type="button"
+                    aria-label="Close profile form"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 PROFILE FORM
+            ================================================== -->
+
+            <form
+                id="profileForm"
+                class="profile-form"
+            >
+
+
+                <!-- Full Name -->
+
+                <div class="form-group">
+
+                    <label for="profileName">
+                        Full Name
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="profileName"
+                        name="name"
+                        placeholder="Enter your name"
+                        autocomplete="name"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- Student Type -->
+
+                <div class="form-group">
+
+                    <label for="studentType">
+                        You are currently in
+                    </label>
+
+
+                    <select
+                        id="studentType"
+                        name="studentType"
+                        required
+                    >
+
+                        <option value="">
+                            Select your current level
+                        </option>
+
+
+                        <option value="school">
+                            School
+                        </option>
+
+
+                        <option value="college">
+                            College
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     SCHOOL DETAILS
+                ================================================== -->
+
+                <div
+                    class="conditional-form-section"
+                    id="schoolFields"
+                    hidden
+                >
+
+
+                    <!-- School Class -->
+
+                    <div class="form-group">
+
+                        <label for="schoolClass">
+                            Current Class
+                        </label>
+
+
+                        <select
+                            id="schoolClass"
+                            name="schoolClass"
+                        >
+
+                            <option value="">
+                                Select your class
+                            </option>
+
+
+                            <option value="class-11">
+                                Class 11
+                            </option>
+
+
+                            <option value="class-12">
+                                Class 12
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- School Stream -->
+
+                    <div class="form-group">
+
+                        <label for="schoolStream">
+                            Stream
+                        </label>
+
+
+                        <select
+                            id="schoolStream"
+                            name="schoolStream"
+                        >
+
+                            <option value="">
+                                Select your stream
+                            </option>
+
+
+                            <option value="science">
+                                Science
+                            </option>
+
+
+                            <option value="commerce">
+                                Commerce
+                            </option>
+
+
+                            <option value="humanities">
+                                Humanities / Arts
+                            </option>
+
+
+                            <option value="other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     COLLEGE DETAILS
+                ================================================== -->
+
+                <div
+                    class="conditional-form-section"
+                    id="collegeFields"
+                    hidden
+                >
+
+
+                    <!-- Degree / Course -->
+
+                    <div class="form-group">
+
+                        <label for="collegeCourse">
+                            Degree / Course
+                        </label>
+
+
+                        <select
+                            id="collegeCourse"
+                            name="collegeCourse"
+                        >
+
+                            <option value="">
+                                Select your degree or course
+                            </option>
+
+
+                            <option value="bca">
+                                BCA
+                            </option>
+
+
+                            <option value="btech">
+                                B.Tech
+                            </option>
+
+
+                            <option value="bsc">
+                                B.Sc
+                            </option>
+
+
+                            <option value="bcom">
+                                B.Com
+                            </option>
+
+
+                            <option value="bba">
+                                BBA
+                            </option>
+
+
+                            <option value="ba">
+                                B.A.
+                            </option>
+
+
+                            <option value="other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- College Year -->
+
+                    <div class="form-group">
+
+                        <label for="collegeYear">
+                            Current Year
+                        </label>
+
+
+                        <select
+                            id="collegeYear"
+                            name="collegeYear"
+                        >
+
+                            <option value="">
+                                Select your current year
+                            </option>
+
+
+                            <option value="1">
+                                1st Year
+                            </option>
+
+
+                            <option value="2">
+                                2nd Year
+                            </option>
+
+
+                            <option value="3">
+                                3rd Year
+                            </option>
+
+
+                            <option value="4">
+                                4th Year
+                            </option>
+
+
+                            <option value="final">
+                                Final Year
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     SUBMIT
+                ================================================== -->
+
+                <button
+                    type="submit"
+                    class="primary-button profile-submit-button"
+                    id="saveProfileButton"
+                >
+                    Continue
+                </button>
+
+                <button
+                    type="button"
+                    class="profile-reset-button"
+                    id="resetSavedProfileButton"
+                >
+                    Clear saved profile and start fresh
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+<!-- =====================================================
+     CAREER DETAILS MODAL
+===================================================== -->
+
+<div
+    id="careerDetailsModal"
+    class="career-details-modal"
+    aria-hidden="true"
+>
+
+    <div class="career-details-container">
+
+        <button
+            type="button"
+            id="closeCareerDetails"
+            class="career-details-close"
+            aria-label="Close career details"
+        >
+            ×
+        </button>
+
+
+        <!-- Career Header -->
+
+        <div class="career-details-header">
+
+            <div class="career-details-icon">
+                💼
+            </div>
+
+            <div>
+
+                <span class="section-label">
+                    Career Guide
+                </span>
+
+                <h2 id="careerDetailsTitle">
+                    Career
+                </h2>
+
+                <p id="careerDetailsDescription">
+                    Explore this career path.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Career Overview -->
+
+        <div class="career-details-grid">
+
+
+            <!-- Salary -->
+
+            <div class="career-detail-box">
+
+                <span class="career-detail-icon">
+                    💰
+                </span>
+
+                <div>
+
+                    <h3>
+                        Salary
+                    </h3>
+
+                    <p id="careerSalary">
+                        Information coming soon.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Education -->
+
+            <div class="career-detail-box">
+
+                <span class="career-detail-icon">
+                    🎓
+                </span>
+
+                <div>
+
+                    <h3>
+                        What to Study
+                    </h3>
+
+                    <div id="careerSubjects">
+                        Information coming soon.
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- Focus Areas -->
+
+        <div class="career-detail-section">
+
+            <div class="career-detail-section-heading">
+
+                <span>
+                    🎯
+                </span>
+
+                <div>
+
+                    <h3>
+                        What to Focus On
+                    </h3>
+
+                    <p>
+                        Areas that can help you prepare
+                        for this career.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div
+                id="careerFocusAreas"
+                class="career-tag-list"
+            >
+            </div>
+
+        </div>
+
+
+        <!-- Skills -->
+
+        <div class="career-detail-section">
+
+            <div class="career-detail-section-heading">
+
+                <span>
+                    🧠
+                </span>
+
+                <div>
+
+                    <h3>
+                        Required Skills
+                    </h3>
+
+                    <p>
+                        Skills commonly useful for
+                        this role.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div
+                id="careerSkills"
+                class="career-tag-list"
+            >
+            </div>
+
+        </div>
+
+
+        <!-- Technologies -->
+
+        <div class="career-detail-section">
+
+            <div class="career-detail-section-heading">
+
+                <span>
+                    🛠️
+                </span>
+
+                <div>
+
+                    <h3>
+                        Technologies & Tools
+                    </h3>
+
+                    <p>
+                        Tools and technologies commonly
+                        used in this career.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div
+                id="careerTechnologies"
+                class="career-tag-list"
+            >
+            </div>
+
+        </div>
+
+
+        <!-- Projects -->
+
+        <div class="career-detail-section">
+
+            <div class="career-detail-section-heading">
+
+                <span>
+                    🚀
+                </span>
+
+                <div>
+
+                    <h3>
+                        Projects to Build
+                    </h3>
+
+                    <p>
+                        Practical projects can help you
+                        turn knowledge into experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div
+                id="careerProjects"
+                class="career-project-list"
+            >
+            </div>
+
+        </div>
+
+
+        <!-- Roadmap -->
+
+        <div class="career-detail-section">
+
+            <div class="career-detail-section-heading">
+
+                <span>
+                    🗺️
+                </span>
+
+                <div>
+
+                    <h3>
+                        Career Roadmap
+                    </h3>
+
+                    <p>
+                        A step-by-step direction for
+                        building your career.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div
+                id="careerRoadmap"
+                class="career-roadmap"
+            >
+            </div>
+
+        </div>
+
+
+        <!-- Disclaimer -->
+
+        <div class="career-guidance-note">
+
+            <span>
+                ℹ️
+            </span>
+
+            <p>
+                Career information is provided for
+                educational guidance. Salary, hiring
+                requirements, and career paths can vary
+                by location, company, experience, and
+                individual skills.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div>
+
+                <strong>
+                    🎯 PathFinder
+                </strong>
+
+
+                <p>
+                    Explore your academic and career possibilities.
+                </p>
+
+            </div>
+
+
+            <p>
+                © 2026 PathFinder Developed By Gaurav Bisht All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+<script src="data.js"></script>
+<script src="career-data.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
