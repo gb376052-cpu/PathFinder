@@ -1,6 +1,6 @@
 # PathFinder — Academic & Career Guidance Platform
 
-**Live Website:** https://pathfinder-4flv5hc6d-marco08.vercel.app/
+**Live Website:** https://pathfinder-green-two.vercel.app/
 
 PathFinder is a student-focused academic and career guidance platform designed to help school and college students explore educational options and career pathways.
 
